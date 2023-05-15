@@ -23,6 +23,7 @@ textarea.addEventListener("keydown", (e) => {
   };
   removebutton.innerText = "✖";
   removebutton.classList.add("button");
+  removebutton.classList.add("removebutton");
 
   const completebutton = document.createElement("button");
   completebutton.onclick = () => {
@@ -30,6 +31,7 @@ textarea.addEventListener("keydown", (e) => {
   };
   completebutton.innerText = "✓";
   completebutton.classList.add("button");
+  completebutton.classList.add("completebutton");
 
   div.appendChild(p);
   div.appendChild(completebutton);
