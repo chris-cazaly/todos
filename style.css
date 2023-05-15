@@ -6,6 +6,7 @@
   --purple2: #5a58a2;
   --purple3: #2d1674;
   --pink: #fadadd;
+  --palegreen: #e6f4e6;
 }
 * {
   margin: 0;
@@ -49,11 +50,40 @@ textarea:focus {
   outline: none;
 }
 
-li {
-  list-style: none;
-  margin-bottom: 10px;
+p {
   background-color: var(--purple1);
   border-radius: 5px;
 
   padding: 10px;
+}
+
+.button {
+  background-color: var(--purple3);
+  color: var(--white);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: var(--purple1);
+  color: var(--purple3);
+}
+
+.tododiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todop {
+  flex: 1;
+}
+
+.complete {
+  text-decoration: line-through;
+  background-color: var(--palegreen);
 }
