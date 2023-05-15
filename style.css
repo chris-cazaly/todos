@@ -52,7 +52,7 @@ textarea:focus {
 li {
   list-style: none;
   margin-bottom: 10px;
-  background-color: #dafaf7;
+  background-color: var(--purple1);
   border-radius: 5px;
 
   padding: 10px;
